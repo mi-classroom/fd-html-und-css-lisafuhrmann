@@ -7,6 +7,7 @@
   <title>Projektsurvival4All - TH Köln</title>
   <link rel="stylesheet" href="./assets/styles/reset.css">
   <link rel="stylesheet" href="./assets/styles/fonts.css">
+  <link rel="stylesheet" href="./assets/styles/icons.css">
   <link rel="stylesheet" href="./assets/styles/variables.css">
   <link rel="stylesheet" href="./assets/styles/base.css">
   <link rel="stylesheet" href="./assets/styles/components.css">
@@ -14,26 +15,28 @@
 
 <body>
   <header>
-    <h1>
-      ProjectSurvival4All
-    </h1>
-    <h2>TH-Köln</h2>
+    <div class="logo">
+      <h1>
+        ProjectSurvival4All
+      </h1>
+      <h2>TH-Köln</h2>
+    </div>
 
     <nav>
-      <form action="/suche" method="get">
-        <input type="text" placeholder="Suchbegriff eingeben...">
-        <button type="submit">Suchen</button>
-      </form>
       <ul>
-        <li><a href="#news">News</a></li>
+        <!-- <li><a href="#news">News</a></li>
         <li><a href="#barrierefreiheit">Barrierefreiheit</a></li>
         <li><a href="#de">DE</a></li>
-        <li><a href="#mk">MK</a></li>
+        <li><a href="#mk">MK</a></li> -->
         <li><a href="#meinBereich">Mein Bereich</a></li>
         <li><a href="#suche">Suche</a></li>
         <li><a href="#aktuelles">Aktuelles</a></li>
       </ul>
     </nav>
+    <form action="/suche" method="get">
+      <input type="text" placeholder="Suche">
+      <button type="submit"><span class="icon icon--l">search</span></button>
+    </form>
   </header>
 
   <main>

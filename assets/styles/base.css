@@ -6,39 +6,95 @@ html, body{
   line-height: 1.5em;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
-  background-color: var(--color-lightest);
+  background-color: var(--color-grey);
 }
 
 main * {
   padding: 10px;;
 }
 
-h1 {
-  margin-bottom: 0;
-}
-
-header h2 {
-  margin-top: 0;;
-}
-
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: var(--fw-bold);
 }
 
-
-h1{
+h1 {
   font-size: var(--xl);
+  margin-bottom: 0;
   background-image: linear-gradient(to right, rgb(223,110,55), rgb(165,57,141)); background-clip: text; color: transparent; display: inline;
 }
 
-h2{
+h2 {
   font-size: var(--l);
+  margin-top: 0px;
 }
 
 h3{
   font-size: var(--m);
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-grey);
+  margin-top: 10px;
+  margin-bottom: var(--s);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 0 30px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: var(--l);
+  color: var(--color-darkest);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-grey);
+  margin-bottom: var(--m);
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: none;
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 70%;
+}
+
+button {
+  padding: 5px 15px;
+  background-color: var(--color-lightest);
+  color: var(--color-dark-grey);
+  border: none;
+  cursor: pointer;
+}
+
+input[type="text"], button {
+  margin: 0;
+}
+
+nav a:hover, button:hover {
+  opacity: 0.7;
 }
 
 article {

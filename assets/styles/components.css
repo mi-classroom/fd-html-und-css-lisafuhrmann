@@ -58,3 +58,8 @@
 .author {
   font-size: var(--s)
 }
+
+.logo {
+  background-color: var(--color-lightest);
+  padding: var(--s);
+}

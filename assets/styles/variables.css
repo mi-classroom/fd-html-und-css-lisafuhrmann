@@ -1,6 +1,4 @@
 :root{
-  --ff-icons: material-icons;
-
   --fw-light: 300;
   --fw-regular: 400;
   --fw-medium: 500;
@@ -11,7 +9,8 @@
   --lh-normal: 130%;
   --lh-loose: 150%;
 
-  --primary-font: "source-sans-3", Arial, sans-serif;
+  --primary-font: source-sans-3, Arial, Helvetica, sans-serif;
+  --ff-icons: material-icons;
 
   --base-font-size: calc(1rem * 0.08);
   --xxxs: 5px;

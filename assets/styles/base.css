@@ -1,3 +1,57 @@
-html, body {
-  background-color: var(--color-orange);
+html, body{
+  background-color: var(--color-light);
+  font-family: var(--primary-font);
+  font-weight: var(--fw-regular);
+  font-size: var(--m);
+  line-height: 1.5em;
+}
+
+header {
+  background-color: var(--color-lightest);
+}
+
+main * {
+  padding: 10px;;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+header h2 {
+  margin-top: 0;;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--fw-bold);
+}
+
+
+h1{
+  font-size: var(--xl);
+  background-image: linear-gradient(to right, rgb(223,110,55), rgb(165,57,141)); background-clip: text; color: transparent; display: inline;
+}
+
+h2{
+  font-size: var(--l);
+}
+
+h3{
+  font-size: var(--m);
+}
+
+article {
+  background-color: var(--color-lightest);
+}
+
+article li {
+  background-color: var(--color-grey);
+  padding: 5px;
+  margin: 5px;
+}
+
+footer {
+  background-color: var(--color-dark-grey);
+  color: var(--color-lightest);  
 }

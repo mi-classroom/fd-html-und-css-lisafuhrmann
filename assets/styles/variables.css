@@ -1,5 +1,33 @@
-:root {
-  --color-orange: #ea5b0c;
+:root{
+  --ff-icons: material-icons;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --lh-tight: 100%;
+  --lh-normal: 130%;
+  --lh-loose: 150%;
+
+  --primary-font: "source-sans-3", Arial, sans-serif;
+
+  --base-font-size: calc(1rem * 0.08);
+  --xxxs: 5px;
+  --xxs: 8px;
+  --xs: 10px;
+  --s:  12px;
+  --m: 16px;
+  --l: 20px;
+  --xl: 24px;
+  --xxl: 32px;
+  --xxxl: 40px;
+
+  --color-darkest: #000000;
+  --color-dark-grey: #6c6c6c;
   --color-grey: #e8e8e8;
-  --color-white: #ffffff;
+  --color-orange: #ea5b0c;
+  --color-light: #e8e8e8;
+  --color-lightest: #fff;
 }

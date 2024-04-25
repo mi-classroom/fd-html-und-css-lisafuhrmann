@@ -63,3 +63,46 @@
   background-color: var(--color-lightest);
   padding: var(--s);
 }
+
+a.about {
+  color: var(--color-lightest);
+  text-transform: uppercase;
+  font-size: var(--m);
+  padding-left: 0px;
+}
+
+li.folder {
+  display: flex;
+  align-items: flex-start;
+}
+
+li.folder a {
+  text-decoration: none;
+  color: var(--color-darkest);
+}
+
+span.icon {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p.author {
+  font-size: var(--s);
+}
+
+.tags {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5px;
+}
+
+.tags li {
+  font-size: var(--s);
+  background-color: var(--color-grey);
+  padding: 5px 10px;
+  border-radius: 2px;
+}

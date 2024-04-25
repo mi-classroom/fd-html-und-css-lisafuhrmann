@@ -2,8 +2,8 @@
 ---------------------------------------------------------------------------- */
 
 .fav-list {
-  margin: 0;
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -11,26 +11,26 @@
 ---------------------------------------------------------------------------- */
 
 .fav-item {
-  background-color: var(--color-lightest);
+  position: relative;
   display: inline-block;
   padding: var(--s) var(--m) var(--s) var(--s);
-  position: relative;
+  background-color: var(--color-lightest);
 
   &::before{
     position: absolute;
-    font-size: var(--xxl);
+    top: 0;
+    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: var(--xxl);
     line-height: var(--l);
-    top: 0;
-    bottom: 0;
   }
 
   p, address{
     margin: 0;
-    font-style: normal;
     margin-left: var(--xxxl);
+    font-style: normal;
     line-height: var(--lh-tight);
   }
 
@@ -50,9 +50,9 @@
 
 .folder {
   padding: 5px;
+  margin: 10px 0;
   background-color: var(--color-lightest);
   list-style: none;
-  margin: 10px 0;
 }
 
 .author {
@@ -60,15 +60,15 @@
 }
 
 .logo {
-  background-color: var(--color-lightest);
   padding: var(--s);
+  background-color: var(--color-lightest);
 }
 
 a.about {
+  padding-left: 0;
   color: var(--color-lightest);
-  text-transform: uppercase;
   font-size: var(--m);
-  padding-left: 0px;
+  text-transform: uppercase;
 }
 
 li.folder {
@@ -77,15 +77,15 @@ li.folder {
 }
 
 li.folder a {
-  text-decoration: none;
   color: var(--color-darkest);
+  text-decoration: none;
 }
 
 span.icon {
-  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 5px;
 }
 
 p.author {
@@ -93,16 +93,16 @@ p.author {
 }
 
 .tags {
-  list-style: none;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
   padding-left: 5px;
+  list-style: none;
 }
 
 .tags li {
-  font-size: var(--s);
-  background-color: var(--color-grey);
   padding: 5px 10px;
   border-radius: 2px;
+  background-color: var(--color-grey);
+  font-size: var(--s);
 }

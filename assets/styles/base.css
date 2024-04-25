@@ -1,14 +1,14 @@
 html, body{
   background-color: var(--color-light);
   font-family: var(--primary-font);
-  font-weight: var(--fw-regular);
   font-size: var(--m);
+  font-weight: var(--fw-regular);
   line-height: 1.5em;
 }
 
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 header {
@@ -23,15 +23,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--fw-bold);
 }
 
-h1 {
+h1 { display: inline;
+  margin-bottom: 0; background-clip: text;
+  background-image: linear-gradient(to right, rgb(223 110 55), rgb(165 57 141)); color: transparent;
   font-size: var(--xl);
-  margin-bottom: 0;
-  background-image: linear-gradient(to right, rgb(223,110,55), rgb(165,57,141)); background-clip: text; color: transparent; display: inline;
 }
 
 h2 {
+  margin-top: 0;
   font-size: var(--l);
-  margin-top: 0px;
 }
 
 h3{
@@ -39,21 +39,21 @@ h3{
 }
 
 nav {
-  width: 100%;
   display: flex;
-  justify-content: space-around;
+  width: 100%;
   align-items: center;
-  background-color: var(--color-grey);
+  justify-content: space-around;
   margin-top: 10px;
   margin-bottom: var(--s);
+  background-color: var(--color-grey);
 }
 
 nav ul {
-  list-style: none;
   display: flex;
   justify-content: center;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 nav li {
@@ -61,31 +61,31 @@ nav li {
 }
 
 nav a {
-  text-decoration: none;
-  font-size: var(--l);
   color: var(--color-darkest);
+  font-size: var(--l);
+  text-decoration: none;
 }
 
 form {
   display: flex;
   justify-content: center;
-  background-color: var(--color-grey);
   margin-bottom: var(--m);
+  background-color: var(--color-grey);
 }
 
 input[type="text"] {
+  width: 70%;
   padding: 5px;
   border: none;
   margin-top: 5px;
   margin-right: 10px;
-  width: 70%;
 }
 
 button {
   padding: 5px 15px;
+  border: none;
   background-color: var(--color-lightest);
   color: var(--color-dark-grey);
-  border: none;
   cursor: pointer;
 }
 
@@ -98,24 +98,24 @@ nav a:hover, button:hover {
 }
 
 article {
+  padding: 0;
   background-color: var(--color-lightest);
-  padding: 0px;
 }
 
 article h3 {
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 article img {
   width: 100%;
   height: auto;
-  padding: 0px;
+  padding: 0;
 }
 
 article li {
-  background-color: var(--color-grey);
   padding: 10px;
   margin: 5px;
+  background-color: var(--color-grey);
 }
 
 footer {

@@ -106,3 +106,23 @@ p.author {
   background-color: var(--color-grey);
   font-size: var(--s);
 }
+
+.main-menu {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 200px;
+  height: calc(100vh - var(--xl) * 2);
+  flex-direction: column;
+  padding: var(--xl);
+  background-color: var(--color-grey);
+  gap: var(--l);
+  transform: translateX(-100%);
+  transition: transform var(--tr-normal);
+
+  &.is-active{
+    transform: translateX(0);
+  }
+}
